@@ -60,7 +60,7 @@ delete its row here.
   left empty; moves the architecture notes into `AGENTS.md` and makes upstream's `CLAUDE.md` a
   pointer. Conflicts with #48 (`coordinator.py`, `strings.json`, `translations/*`,
   `tests/README.md`): whichever merges second needs `upstream/main` merged and resolved.
-- **`feature/https-host-url`** (PR to open) — the host field accepts a full URL
+- **`feature/https-host-url`** (PR #59) — the host field accepts a full URL
   (`https://…`, optional port), e.g. for an HTTPS reverse proxy. Touches `base.py` and strings.
 - **`integration/test`** — local only, never pushed: all of the above merged together for
   testing on a real HA instance.
